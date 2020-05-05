@@ -8,6 +8,6 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./src:/var/www/html
+      - ./src:/app
     environment:
       TZ: "Asia/Tokyo"

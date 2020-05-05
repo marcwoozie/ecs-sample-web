@@ -11,7 +11,7 @@ RUN apt-get update -qq
 # ビルド完了後にNginxを起動
 CMD /usr/sbin/nginx -g 'daemon off;' -c /etc/nginx/nginx.conf
 
-ENV APP /var/www/html
+ENV APP /app
 RUN mkdir $APP
 WORKDIR $APP
 
