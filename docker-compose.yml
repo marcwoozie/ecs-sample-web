@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: ./nginx/Dockerfile
-    image: ecs-sample/nginx
+    # image: ecs-sample/nginx
     ports:
       - 80:80
     volumes:
